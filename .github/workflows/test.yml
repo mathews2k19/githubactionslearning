@@ -10,6 +10,7 @@ jobs:
         run: echo "Welcome"
   test1:
     runs-on: ubuntu-latest
+    needs: test
     steps:
       - name: Hello World
         run: echo "Hello World"
