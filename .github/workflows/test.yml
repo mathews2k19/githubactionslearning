@@ -8,4 +8,11 @@ jobs:
         run: echo "Hello World"
       - name: Welcome
         run: echo "Welcome"
+  test1:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Hello World
+        run: echo "Hello World"
+      - name: Welcome
+        run: echo "Welcome"
       
