@@ -1,10 +1,7 @@
 name: Simple Hello World Job
 
 on:
-  # push:
-  #   branches:
-  #     - dockerbuild
-  workflow_dispatch: {}
+  workflow_dispatch:
 
 jobs:
   hello-job:
