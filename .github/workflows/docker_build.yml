@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - dockerbuild
+  workflow_dispatch: {}
 
 jobs:
   hello-job:
