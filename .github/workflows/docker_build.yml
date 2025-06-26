@@ -3,7 +3,7 @@ name: Simple Hello World Job
 on:
   push:
     branches:
-      - main
+      - dockerbuild
 
 jobs:
   hello-job:
